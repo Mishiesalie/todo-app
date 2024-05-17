@@ -1,0 +1,90 @@
+
+
+
+body {
+    background-image: url();
+    background-color: rgb(141, 124, 124);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-weight: normal;
+}
+
+.content {
+    background-color: #28b3eb;
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+.header {
+    background-image: url();
+    background-color: #7c6565;
+    background-size: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header h1 {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.todo-list {
+    margin: 30px;
+
+    
+}
+
+.todo-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    border-left: 5px solid #ddd;
+    padding: 20;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    
+}
+.todo-list li:hover {
+    border-color: #9361bf;
+}
+
+
+.todo {
+    width: 400px;
+    margin: 0 auto;
+}
+.todo input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+
+.todo:after{
+    content: "";
+    display : block;
+    clear: both;
+}
+.todo label{
+   line-height: 52px;
+} 
